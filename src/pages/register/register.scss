@@ -1,0 +1,75 @@
+.register{
+    height: 100vh;
+    background:linear-gradient(120deg, rgb(161, 196, 253) 0%, rgb(194, 233, 251) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card_register{
+        display: flex;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;   
+        .left_register{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            padding: 50px;
+            justify-content: center;
+            h1{
+                font-size: 30px;
+                color: #565656;
+                margin-bottom: 50px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 10px;
+                }
+                button{
+                    background-color:#7c72c6d2 ;
+                    color: white;
+                    padding: 10px;
+                    width: 50%;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right_register{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 50px;
+            background:linear-gradient(rgb(161, 196, 253,0.5), rgb(194, 233, 251,0.5)),url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
+            background-size: cover;
+            color: white;
+            h1{
+                font-size: 95px;
+                line-height: 100px;
+            }
+            p{
+
+            }
+            span{
+                font-size: 14px
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: rebeccapurple;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
